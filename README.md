@@ -19,7 +19,7 @@ The effects included in the `VideoProcessor` are:
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12
 - OpenCV (`cv2`)
 - NumPy (`numpy`)
 - PyVirtualCam (optional, for virtual camera functionality)
