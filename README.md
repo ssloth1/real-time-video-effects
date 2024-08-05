@@ -17,6 +17,13 @@ The effects included in the `VideoProcessor` are:
 10. Vignette effect
 11. Sepia effect
 
+## Usage
+1. The VideoProcessor class is initialized with a video source (default is 0 for the default camera) and a flag indicating whether to use a virtual camera.
+2. Trackbars - The program provides a set of trackbars for real-time adjustment of the effects. These trackbars control various parameters of the effects.
+3. Virtual Camera - If use_virtual_cam is set to True, the processed frames are sent to a virtual camera using PyVirtualCam. If the virtual camera is not available, it falls back to window display.
+4. Save an Image - Press 's' to save the current processed frame as processed_frame.jpg.
+5. Quit - Press 'q' to quit the application
+
 ## Requirements
 
 - Python 3.12
